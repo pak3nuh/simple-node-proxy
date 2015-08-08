@@ -1,10 +1,14 @@
 {
   "name": "simple-node-proxy",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A wapper for simple proxy management using http-proxy by Nodejitsu Inc.",
   "author": {
     "name": "pak3nuh",
-    "email": ""
+    "email": "nuno.pik@gmail.com"
+  },
+  "repository":{
+	"type" : "git"
+	, "url" : "https://github.com/pak3nuh/simple-node-proxy.git"
   },
   "dependencies": {
 	  "http-proxy": "^1.11.1"
