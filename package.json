@@ -1,6 +1,6 @@
 {
   "name": "simple-node-proxy",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A wapper for simple proxy management using http-proxy by Nodejitsu Inc.",
   "author": {
     "name": "pak3nuh",
