@@ -1,0 +1,13 @@
+{
+  "name": "simple-node-proxy",
+  "version": "0.2.0",
+  "description": "A wapper for simple proxy management using http-proxy by Nodejitsu Inc.",
+  "author": {
+    "name": "pak3nuh",
+    "email": ""
+  },
+  "dependencies": {
+	  "http-proxy": "^1.11.1"
+  },
+  "main": "index.js"
+}
