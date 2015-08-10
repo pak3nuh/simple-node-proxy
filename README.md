@@ -34,6 +34,6 @@ var strategy = new snp.Strategy.Cookie({
 });
 ```
 
-Strategies are modular meaning you can create your own strategies and have multiple different ones on the same server.
+Strategies are modular meaning you can create your own strategies and have multiple different ones on the same server. See the available strategies [here](https://github.com/pak3nuh/simple-node-proxy/wiki/Strategies)
 
 You can see a full example [here](https://github.com/pak3nuh/simple-node-proxy/blob/master/example/app.js)
