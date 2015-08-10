@@ -5,14 +5,14 @@ As a NodeJs enthusiast I've made multiple apps using this technology. The proble
 
 This node library allows for creating a first level server, listening to a specific port, and redirects the requests based on the defined strategies.
 
-#Proxy server
+#ProxyServer
 This is the first level server, the actual proxy. It listen to the requests and forwards it to the destination host if it matches any of the strategies defined.
 ```javascript
 var snp = require('simple-node-proxy');
 var server = new snp.Server(8080);
 ```
 
-#Proxy Entry
+#ProxyEntry
 An entry represents the forwarding information, the host and the port, as well as the strategy used for identifying the desired requests.
 ```javascript
 var snp = require('simple-node-proxy');
