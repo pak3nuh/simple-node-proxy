@@ -20,6 +20,8 @@ var entry = new snp.Proxy(host, 8081, strategy);
 ```
 
 # Strategy
+See the available strategies [here](https://github.com/pak3nuh/simple-node-proxy/wiki/Strategies)
+
 A strategy is the means of interpreting the request and forwarding it if necessary. It relies on 3 functions, a mandatory `checkFunction` that verifies if it should redirect, and 2 optional `registerFunction` and `unregisterFunction` used for some strategies like cokkies.
 ```javascript
 var snp = require('simple-node-proxy');
@@ -34,6 +36,6 @@ var strategy = new snp.Strategy.Cookie({
 });
 ```
 
-Strategies are modular meaning you can create your own strategies and have multiple different ones on the same server. See the available strategies [here](https://github.com/pak3nuh/simple-node-proxy/wiki/Strategies)
+Strategies are modular meaning you can create your own strategies and have multiple different ones on the same server. 
 
 You can see a full example [here](https://github.com/pak3nuh/simple-node-proxy/blob/master/example/app.js)
